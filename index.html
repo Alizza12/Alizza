@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="index.html" rel="index.html">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: Helvetica, sans-serif;
+        }
+        .center {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+
+        }
+        button {
+            border: transparent;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: 200;
+            background-color: crimson;
+            color: #eaeaee;
+            box-shadow: 0 0 5px 5px red;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: transparent;
+            color: crimson;
+            transition: 0.3s all ease-in-out;
+        }
+        .title {
+            font-size: 25px;
+            animation: bounce 3s infinite;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+    <h1 class="title">Hai Alfin mengirim sesuatu untukmu</h1>
+    <button>
+        <a href="index.html">Buka</a>
+    </button>
+</div>
+</body>
+</html>
