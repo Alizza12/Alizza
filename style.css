@@ -70,10 +70,10 @@ body {
             padding: 15px;
             font-size: 20px;
             font-weight: 200;
-            top: 150px;
+            top: 300px;
             background-color: crimson;
             color: #eaeaee;
             box-shadow: 0 0 5px 5px red;
             cursor: pointer;
-            position: absolute;
+            position: relative;
         }
