@@ -62,4 +62,6 @@ body {
    .text {
        text-align: left;
        padding-left: 5px;
+       padding-bottom : 10px ;
+      
    }
