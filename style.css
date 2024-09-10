@@ -65,6 +65,11 @@ body {
     backface-visibility: hidden;
 }
    .text {
+    
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
        text-align: center;
        padding-left: 5px;
        padding-bottom: 10px ;
