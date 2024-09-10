@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+@import url ('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 @import url (https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjAzMzU3NzQxMzU4NTIzOTgz/happy-birthday-wishes-messages.jpg);
 * {
   font-family: "Playpen Sans", cursive;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
   justify-content: center;
-   text-align: center;
-}
+   text-align: center;}
 body {
     height: 100vh;
     margin: 10px auto;   
@@ -62,6 +58,8 @@ body {
     backface-visibility: hidden;
 }
    .text {
+      
+  font-family: "Playpen Sans", cursive;
        text-align: center;
        padding-left: 5px;
        padding-bottom: 10px ;
